@@ -1,22 +1,79 @@
-<HTML>
-<HEAD>
+<html>
+<head>
 <script language="javascript">
- function onlyalpha(e)
- {
- key= e.keyCode ;
- if((key>=65 && key<=90) || (key>=95 && key<=122))
- {
-  return true;
- }
- else
- {
-  alert("You cannot enter numbers")
-    return false;
- }
- }
+Function CA(I)
+{
+ str="Hello"
+alter(str.charAt(3))
+}
+function CC()
+{
+str="Hello"
+str2="Ritu"
+alter(str.concat(str2))
+}
+function LS()
+{
+ str="Hello"
+alter(str.length)
+}
+function IO()
+{
+ str="Hello"
+alter(str.indexOf("H"))
+}
+function LI()
+{
+ str="Hello"
+alter(str.lastIndexOf("l"))
+}
+function S()
+{
+ str="Hello"
+alter(str.search("e"))
+}
+function R()
+{
+str="Hello"
+alter(str.replace("Hello","everyone"))
+}
+function SL()
+{
+str="Hello"
+alter(str.slice(1.4))
+}
+function TLC()
+{
+str="Hello"
+alter(str.toLowerCase())
+}
+function TUC()
+{
+str="Hello"
+alert(str.toUpperCase())
+}
+function T()
+{
+str="Hello"
+alert(str.length)
+str.trim()
+}
 </script>
-</HEAD>
-<BODY>
-Name: <input type="text" id="txtname" onKeyPress="return onlyalpha(event)" />  
-</BODY>
-</HTML>
+</head>
+<body bgcolor="pink">
+<form><center>
+<input type="button" value="charAt" onclick="CA()" style=backgroundcolor="blue"><br><br>
+<input type="button"value="concat" onclick="CC()" style=backgroundcolor="blue"><br><br>
+<input type="button"value="length" onclick="LS()" style=backgroundcolor="black"><br><br>
+<input type="button" value="indexOf" onclick="IO()" style=backgroundcolor="black"><br><br>
+<input type="button" value="lastIndexOf" onclick="LIO()" style=backgroundcolor="black"><br><br>
+<input type="button"value="search" onclick="S()" style=backgroundcolor="black"><br><br>
+<input type="button"value="slice" onclick="LS()" style=backgroundcolor="black"><br><br>
+<input type="button"value="replace" onclick="R()" style=backgroundcolor="black"><br><br>
+<input type="button" value="toLowerCase" onclick="TKC()" style=backgroundcolor="black"><br><br>
+<input type="button" value="toUpperCase" onclick="TUC()" style=backgroundcolor="black"><br><br>
+<input type="button"value="length" onclick="T()" style=backgroundcolor="black"><br><br>
+</center>
+</form>
+</body>
+</html>
